@@ -16,7 +16,7 @@ public class Driver {
         caps.setCapability("platformVersion", "9.0");
         caps.setCapability("deviceName", "Android Emulator");
         caps.setCapability("autoGrantPermissions", "true");
-        caps.setCapability("app", System.getProperty("user.dir") + "/data/app-debug.apk");
+        caps.setCapability("app", System.getProperty("user.dir") + "/data/app-debug.apk"); // you should create a folder(name is data here) and put .apk file !
         try {
             driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), caps);
         } catch (MalformedURLException e) {
