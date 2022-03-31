@@ -1,0 +1,8 @@
+<suite name="Paysell Test">
+    <test name="Bill Pay Test">
+        <classes>
+            <class name="PhoneBillPay"/>
+        </classes>
+    </test>
+</suite>
+
